@@ -32,7 +32,7 @@ img{
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
     animation-name: haha;
-    animation-duration: 1s;
+    animation-duration: 2s;
     animation-fill-mode: forwards;
 
 }
@@ -45,7 +45,7 @@ img{
     border-bottom-right-radius: 15px;
     padding-left: 30px;
     animation-name: hoho;
-    animation-duration: 1s;
+    animation-duration: 2s;
     animation-fill-mode: forwards;
 
     
