@@ -6,7 +6,24 @@ body{
 
 .product{
     display: flex;
-    transform: translate(25%, 35%);
+    justify-content: space-around;
+}
+
+@keyframes haha {
+    from{
+        transform: translate(0px, 0px);
+    }
+    to{
+        transform: translateX(67%);
+    }
+}
+@keyframes hoho {
+    from{
+        transform: translate(0px, 0px);
+    }
+    to{
+        transform: translateX(-60%);
+    }
 }
 
 img{
@@ -14,7 +31,9 @@ img{
     height: 500px;
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
-    transition: 1s;
+    animation-name: haha;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
 
 }
 
@@ -25,6 +44,10 @@ img{
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
     padding-left: 30px;
+    animation-name: hoho;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+
     
 }
 
@@ -38,16 +61,13 @@ a{
     background-color: #1A4031;
     padding: 15px 70px;
     border-radius: 10px;
-    transition-duration: 0.5s;
     font-size: 16px;
 }
 a:hover{
-    background-color: #A48C60;
-    font-size: 20px;
-    padding: 15px 70px;
     text-decoration: underline;
 
 }
+
 .par{
     width: 220px;
     color: rgb(156, 156, 156);
@@ -71,3 +91,6 @@ a:hover{
     width: 200px;
     word-spacing: 10px;
 }
+
+
+
